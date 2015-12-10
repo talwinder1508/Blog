@@ -140,3 +140,31 @@ Stack Trace:
 #2 {main}
 
 
+2015-12-10 01:54:03 Error: Fatal Error (1): Call to a member function allow() on boolean in [C:\xampp\htdocs\blog\src\Controller\UsersController.php, line 27]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-12-10 01:54:03 Error: [Cake\Error\FatalErrorException] Call to a member function allow() on boolean
+Request URL: /blog/users
+Stack Trace:
+#0 C:\xampp\htdocs\blog\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 27)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-10 01:57:34 Error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "users" with primary key [NULL]
+Request URL: /blog/users/view
+Stack Trace:
+#0 C:\xampp\htdocs\blog\src\Controller\UsersController.php(36): Cake\ORM\Table->get(NULL, Array)
+#1 [internal function]: App\Controller\UsersController->view()
+#2 C:\xampp\htdocs\blog\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\blog\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 C:\xampp\htdocs\blog\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#5 C:\xampp\htdocs\blog\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
