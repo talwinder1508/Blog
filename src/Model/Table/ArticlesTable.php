@@ -27,7 +27,12 @@ class ArticlesTable extends Table
         $this->table('articles');
         $this->displayField('title');
         $this->primaryKey('id');
-
+        
+        $this->hasMany('Comments', [
+            'foreignKey' => 'article_id',
+            'dependent' => true,
+        ]);
+        
         $this->addBehavior('Timestamp');
 
     }

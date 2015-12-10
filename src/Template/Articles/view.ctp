@@ -31,4 +31,13 @@
         <h4><?= __('Body') ?></h4>
         <?= $this->Text->autoParagraph(h($article->body)); ?>
     </div>
+
+<h1>Add Comment</h1>
+<?php
+echo $this->Form->create('Comment',array('action' => 'add','url' => array($article_id)));
+echo $this->Form->input('body', array('rows' => '3'));
+echo $this->Form->end('Add comment');
+?>
+
 </div>
+
