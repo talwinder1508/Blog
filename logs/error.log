@@ -300,3 +300,284 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 
 
 
+2015-12-10 08:20:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /blog/css/grayscale.css
+Stack Trace:
+#0 C:\xampp\htdocs\blog\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-10 08:20:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /blog/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-10 08:20:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /blog/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\blog\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-10 08:20:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /blog/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-10 08:20:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /blog/js/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-10 08:20:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class FontAwesome could not be found.
+Exception Attributes: array (
+  'class' => 'FontAwesome',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /blog/font-awesome/css/font-awesome.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\blog\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-10 08:20:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /blog/js/grayscale.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-10 08:21:35 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\home.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\home.ctp',
+)
+Request URL: /blog/
+Stack Trace:
+#0 C:\xampp\htdocs\blog\vendor\cakephp\cakephp\src\View\View.php(575): Cake\View\View->_getViewFileName('home')
+#1 C:\xampp\htdocs\blog\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('home', NULL)
+#2 C:\xampp\htdocs\blog\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('home')
+#3 [internal function]: App\Controller\PagesController->display('home')
+#4 C:\xampp\htdocs\blog\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\blog\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 C:\xampp\htdocs\blog\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 C:\xampp\htdocs\blog\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-10 08:21:53 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\home.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\home.ctp',
+)
+Request URL: /blog/
+Stack Trace:
+#0 C:\xampp\htdocs\blog\vendor\cakephp\cakephp\src\View\View.php(575): Cake\View\View->_getViewFileName('home')
+#1 C:\xampp\htdocs\blog\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render('home', NULL)
+#2 C:\xampp\htdocs\blog\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('home')
+#3 [internal function]: App\Controller\PagesController->display('home')
+#4 C:\xampp\htdocs\blog\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\blog\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 C:\xampp\htdocs\blog\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 C:\xampp\htdocs\blog\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-12-10 08:22:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /blog/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\blog\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-10 08:22:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class FontAwesome could not be found.
+Exception Attributes: array (
+  'class' => 'FontAwesome',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /blog/font-awesome/css/font-awesome.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\blog\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-10 08:22:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /blog/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-10 08:22:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /blog/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-10 08:22:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /blog/js/jquery.easing.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-10 08:22:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /blog/css/grayscale.css
+Stack Trace:
+#0 C:\xampp\htdocs\blog\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-10 08:22:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /blog/js/grayscale.js
+Stack Trace:
+#0 C:\xampp\htdocs\blog\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-10 08:29:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Bird.jpg could not be found.
+Exception Attributes: array (
+  'class' => 'Bird.jpg',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /blog/bird.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-10 08:29:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Birds1.jpg could not be found.
+Exception Attributes: array (
+  'class' => 'Birds1.jpg',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /blog/birds1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-10 08:29:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Birds2.jpg could not be found.
+Exception Attributes: array (
+  'class' => 'Birds2.jpg',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /blog/birds2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-10 08:29:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Birds3.jpg could not be found.
+Exception Attributes: array (
+  'class' => 'Birds3.jpg',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /blog/birds3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-10 08:31:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Bird.jpg could not be found.
+Exception Attributes: array (
+  'class' => 'Bird.jpg',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /blog/bird.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\blog\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
