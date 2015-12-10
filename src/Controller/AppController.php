@@ -54,6 +54,8 @@ class AppController extends Controller
                 'home'
             ]
         ]);
+        
+        
     }
 
     /**

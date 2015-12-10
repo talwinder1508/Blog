@@ -212,3 +212,16 @@ Stack Trace:
 #2 {main}
 
 
+2015-12-10 03:38:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Login could not be found.
+Exception Attributes: array (
+  'class' => 'Login',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /blog/login
+Stack Trace:
+#0 C:\xampp\htdocs\blog\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
